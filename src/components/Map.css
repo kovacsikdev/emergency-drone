@@ -5,21 +5,21 @@
 }
 
 .station {
-  background-image: url('public/station-icon.png');
+  background-image: url('/station-icon.png');
   background-size: cover;
   width: 64px;
   height: 64px;
 }
 
 .emergency {
-  background-image: url('public/emergency-icon.png');
+  background-image: url('/emergency-icon.png');
   background-size: cover;
   width: 32px;
   height: 32px;
 }
 
 .drone {
-  background-image: url("public/drone_26.svg");
+  background-image: url("/drone_26.svg");
   background-size: cover;
   width: 32px;
   height: 32px;
