@@ -1,0 +1,110 @@
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.station {
+  background-image: url('station-icon.png');
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+}
+
+.emergency {
+  background-image: url('emergency-icon.png');
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.drone {
+  background-image: url("drone_26.svg");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.sidebar {
+  background-color: rgb(35 55 75 / 90%);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.reset-button {
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  left: 12px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00D2FF;
+  color: black;
+  cursor: pointer;
+}
+
+.custom-marker {
+  padding: 8px;
+  cursor: pointer;
+
+  &-selected {
+    background: linear-gradient(
+          to right,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        0 0,
+      linear-gradient(
+          to right,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        0 100%,
+      linear-gradient(
+          to left,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        100% 0,
+      linear-gradient(
+          to left,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        100% 100%,
+      linear-gradient(
+          to bottom,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        0 0,
+      linear-gradient(
+          to bottom,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        100% 0,
+      linear-gradient(
+          to top,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        0 100%,
+      linear-gradient(
+          to top,
+          var(--selected-border-color) var(--selected-border-width),
+          transparent var(--selected-border-width)
+        )
+        100% 100%;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+  }
+}

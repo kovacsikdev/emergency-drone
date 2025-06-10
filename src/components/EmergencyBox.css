@@ -1,0 +1,20 @@
+.emergency-call {
+  margin: 8px;
+  font-size: 1.25rem;
+  padding: 16px;
+  background-color: #94363427;
+  border: 1px solid #D73020;
+  border-radius: 12px;
+}
+
+.emergency-call div {
+  margin: 8px 0;
+}
+
+.emergency-call button {
+  padding: 8px 32px;
+  margin: 8px 0;
+  background-color: #00D2FF;
+  color: black;
+  border-radius: 12px;
+}

@@ -1,0 +1,49 @@
+.sidebar-component {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  padding: 10px;
+}
+
+.sidebar-drone-fleet {
+  padding: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1F1D1D;
+  background-image: radial-gradient(#2F6C79 0%, #1F1D1D 75%);
+  border-radius: 12px;
+  border: 2px solid #333;
+}
+
+.sidebar-drone-fleet h2 {
+  margin: 10px 0;
+}
+
+.sidebar-drone-status {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar-drone-status div {
+  color: white;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+.emergency-calls {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1F1D1D;
+  border-radius: 12px;
+  border: 2px solid #2F6C79;
+}
+
+.emergency-calls h2 {
+  margin: 10px 0;
+}

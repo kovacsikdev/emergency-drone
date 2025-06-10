@@ -1,0 +1,109 @@
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 10;
+}
+
+.modal-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 580px;
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  background-color: #1F1D1D;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 11;
+}
+
+.modal-exit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  background: none;
+}
+
+.deploy {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.deploy-wrapper {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.drone-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.drone-description-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.drone-description input {
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.deploy-selection {
+  display: flex;
+  align-items: center;
+}
+
+.deploy-selection input {
+  margin-right: 18px;
+}
+
+.deploy-status {
+  text-align: center;
+  width: 120px;
+}
+
+.deploy-status img {
+  height: 64px;
+}
+
+.deploy-status-marker {
+  padding: 2px;
+  border-radius: 12px;
+  color: white;
+}
+
+.deploy-ready {
+  background-color: #039955;
+}
+
+.deploy-health {
+  background-color: #D73020;
+}
+
+.deploy-charging {
+  background-color: #DD6705;
+}
+
+.deploy-selection-disabled {
+  color: gray;
+  cursor: not-allowed;
+}
