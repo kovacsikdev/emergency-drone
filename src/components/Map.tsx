@@ -74,7 +74,6 @@ export const Map = (props: MapProps) => {
 
       mapInstance.on("click", (e) => {
         e.preventDefault();
-        console.log("e", e.lngLat);
       });
 
       mapInstance.on("load", () => {

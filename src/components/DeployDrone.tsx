@@ -31,7 +31,6 @@ export const DeployDrone = (props: DeployDroneProps) => {
 
   const handleSearch = (e: any) => {
     const value = e.target.value;
-    console.log("value", value);
 
     const filtered = filterItems(value);
     setFilteredDrones(filtered);
